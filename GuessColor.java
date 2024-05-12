@@ -196,7 +196,7 @@ public class GuessColor {
             check();        }
           // checks if the color panels are the same and displays
         // winning message if they are the same
-z       private void check() {
+       private void check() {
             if (model.getRandomColor().equals(model.getUserColor())) {
                 int choose = JOptionPane.showConfirmDialog(frame,
                         "You win!  Play again?");
